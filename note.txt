@@ -1,0 +1,28 @@
+Role 與 The_Lord_of_the_Rings 為原檔
+
+但因為程式執行有問題，所以透過ChatGpt去進行優化
+
+以下是給chatgpt優化的條件:
+
+
+1.這是一個3打3的遊戲，隨機到誰的攻擊回合時，三個角色會依序攻擊
+
+2.當雙方誰的角色HP小魚等於0時，該角色會死亡
+
+3.用第2點的條件來設置while迴圈的終止
+
+
+
+
+當中會出現下方錯誤:
+
+程式執行發生以下錯誤
+Traceback (most recent call last):
+
+  File "C:\Users\USER\Desktop\David\work\The_Lord_of_the_Rings_GPT.py", line 56, in <module>
+    target.setHP(target.getHP() - damage)
+
+AttributeError: 'Dwarves' object has no attribute 'setHP'
+
+
+可以用Role裡的程式碼給gpt去改善
